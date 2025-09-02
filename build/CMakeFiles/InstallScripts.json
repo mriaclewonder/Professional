@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lin/Desktop/CMake/build/cmake_install.cmake",
+		"/home/lin/Desktop/CMake/build/ch10/cmake_install.cmake",
+		"/home/lin/Desktop/CMake/build/ch10/ch10_01/cmake_install.cmake",
+		"/home/lin/Desktop/CMake/build/ch10/ch10_02/cmake_install.cmake",
+		"/home/lin/Desktop/CMake/build/ch10/ch10_03/cmake_install.cmake",
+		"/home/lin/Desktop/CMake/build/ch10/ch10_04/cmake_install.cmake",
+		"/home/lin/Desktop/CMake/build/ch10/ch10_04/Purevirtual/cmake_install.cmake",
+		"/home/lin/Desktop/CMake/build/ch11/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

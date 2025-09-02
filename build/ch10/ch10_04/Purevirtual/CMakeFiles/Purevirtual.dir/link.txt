@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Purevirtual.dir/link.d CMakeFiles/Purevirtual.dir/Cat.cpp.o CMakeFiles/Purevirtual.dir/test.cpp.o -o /home/lin/Desktop/CMake/bin/Purevirtual

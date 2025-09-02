@@ -1,1 +1,10 @@
+cmake_minimum_required(VERSION 3.25 FATAL_ERROR)
+
 project(CMake)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+message(STATUS "CMAKE_RUNTIME_OUTPUT_DIRECTORY = ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
+
+add_subdirectory(ch10)
+add_subdirectory(ch11)
+
