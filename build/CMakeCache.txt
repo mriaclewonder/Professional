@@ -243,67 +243,22 @@ CMake_IS_TOP_LEVEL:STATIC=ON
 CMake_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake
 
 //Value Computed by CMake
-Purevirtual_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch10/ch10_04/Purevirtual
+ch01_01_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch01/ch01_01
 
 //Value Computed by CMake
-Purevirtual_IS_TOP_LEVEL:STATIC=OFF
+ch01_01_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Purevirtual_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch10/ch10_04/Purevirtual
+ch01_01_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch01/ch01_01
 
 //Value Computed by CMake
-ch10_01_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch10/ch10_01
+ch01_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch01
 
 //Value Computed by CMake
-ch10_01_IS_TOP_LEVEL:STATIC=OFF
+ch01_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-ch10_01_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch10/ch10_01
-
-//Value Computed by CMake
-ch10_02_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch10/ch10_02
-
-//Value Computed by CMake
-ch10_02_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-ch10_02_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch10/ch10_02
-
-//Value Computed by CMake
-ch10_03_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch10/ch10_03
-
-//Value Computed by CMake
-ch10_03_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-ch10_03_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch10/ch10_03
-
-//Value Computed by CMake
-ch10_04_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch10/ch10_04
-
-//Value Computed by CMake
-ch10_04_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-ch10_04_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch10/ch10_04
-
-//Value Computed by CMake
-ch10_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch10
-
-//Value Computed by CMake
-ch10_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-ch10_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch10
-
-//Value Computed by CMake
-ch11_BINARY_DIR:STATIC=/home/lin/Desktop/CMake/build/ch11
-
-//Value Computed by CMake
-ch11_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-ch11_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch11
+ch01_SOURCE_DIR:STATIC=/home/lin/Desktop/CMake/ch01
 
 
 ########################
@@ -412,7 +367,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ch11.dir/link.d CMakeFiles/ch11.dir/test.cpp.o -o /home/lin/Desktop/CMake/bin/ch11

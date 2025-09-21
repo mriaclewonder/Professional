@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lin/Desktop/CMake/build/CMakeFiles /home/lin/Desktop/CMake/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/lin/Desktop/CMake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lin/Desktop/CMake/build/CMakeFiles /home/lin/Desktop/CMake/build/ch01/ch01_01//CMakeFiles/progress.marks
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch01/ch01_01/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lin/Desktop/CMake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch01/ch01_01/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,31 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch01/ch01_01/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch01/ch01_01/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lin/Desktop/CMake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named ch01_01
+# Convenience name for target.
+ch01/ch01_01/CMakeFiles/ch01_01.dir/rule:
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch01/ch01_01/CMakeFiles/ch01_01.dir/rule
+.PHONY : ch01/ch01_01/CMakeFiles/ch01_01.dir/rule
 
-# Build rule for target.
-ch01_01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch01_01
+# Convenience name for target.
+ch01_01: ch01/ch01_01/CMakeFiles/ch01_01.dir/rule
 .PHONY : ch01_01
 
 # fast build rule for target.
 ch01_01/fast:
-	$(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/build
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/build
 .PHONY : ch01_01/fast
+
+structtest.o: structtest.cpp.o
+.PHONY : structtest.o
+
+# target to build an object file
+structtest.cpp.o:
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/structtest.cpp.o
+.PHONY : structtest.cpp.o
+
+structtest.i: structtest.cpp.i
+.PHONY : structtest.i
+
+# target to preprocess a source file
+structtest.cpp.i:
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/structtest.cpp.i
+.PHONY : structtest.cpp.i
+
+structtest.s: structtest.cpp.s
+.PHONY : structtest.s
+
+# target to generate assembly for a file
+structtest.cpp.s:
+	cd /home/lin/Desktop/CMake/build && $(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/structtest.cpp.s
+.PHONY : structtest.cpp.s
 
 # Help Target
 help:
@@ -138,6 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ch01_01"
+	@echo "... structtest.o"
+	@echo "... structtest.i"
+	@echo "... structtest.s"
 .PHONY : help
 
 
@@ -149,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lin/Desktop/CMake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

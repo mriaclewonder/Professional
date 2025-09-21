@@ -63,233 +63,90 @@ CMAKE_BINARY_DIR = /home/lin/Desktop/CMake/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: ch10/all
-all: ch11/all
+all: ch01/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: ch10/codegen
-codegen: ch11/codegen
+codegen: ch01/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall: ch10/preinstall
-preinstall: ch11/preinstall
+preinstall: ch01/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: ch10/clean
-clean: ch11/clean
+clean: ch01/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory ch10
+# Directory level rules for directory ch01
 
 # Recursive "all" directory target.
-ch10/all: ch10/ch10_01/all
-ch10/all: ch10/ch10_02/all
-ch10/all: ch10/ch10_03/all
-ch10/all: ch10/ch10_04/all
-.PHONY : ch10/all
+ch01/all: ch01/ch01_01/all
+.PHONY : ch01/all
 
 # Recursive "codegen" directory target.
-ch10/codegen: ch10/ch10_01/codegen
-ch10/codegen: ch10/ch10_02/codegen
-ch10/codegen: ch10/ch10_03/codegen
-ch10/codegen: ch10/ch10_04/codegen
-.PHONY : ch10/codegen
+ch01/codegen: ch01/ch01_01/codegen
+.PHONY : ch01/codegen
 
 # Recursive "preinstall" directory target.
-ch10/preinstall: ch10/ch10_01/preinstall
-ch10/preinstall: ch10/ch10_02/preinstall
-ch10/preinstall: ch10/ch10_03/preinstall
-ch10/preinstall: ch10/ch10_04/preinstall
-.PHONY : ch10/preinstall
+ch01/preinstall: ch01/ch01_01/preinstall
+.PHONY : ch01/preinstall
 
 # Recursive "clean" directory target.
-ch10/clean: ch10/ch10_01/clean
-ch10/clean: ch10/ch10_02/clean
-ch10/clean: ch10/ch10_03/clean
-ch10/clean: ch10/ch10_04/clean
-.PHONY : ch10/clean
+ch01/clean: ch01/ch01_01/clean
+.PHONY : ch01/clean
 
 #=============================================================================
-# Directory level rules for directory ch10/ch10_01
+# Directory level rules for directory ch01/ch01_01
 
 # Recursive "all" directory target.
-ch10/ch10_01/all:
-.PHONY : ch10/ch10_01/all
+ch01/ch01_01/all: ch01/ch01_01/CMakeFiles/ch01_01.dir/all
+.PHONY : ch01/ch01_01/all
 
 # Recursive "codegen" directory target.
-ch10/ch10_01/codegen:
-.PHONY : ch10/ch10_01/codegen
+ch01/ch01_01/codegen: ch01/ch01_01/CMakeFiles/ch01_01.dir/codegen
+.PHONY : ch01/ch01_01/codegen
 
 # Recursive "preinstall" directory target.
-ch10/ch10_01/preinstall:
-.PHONY : ch10/ch10_01/preinstall
+ch01/ch01_01/preinstall:
+.PHONY : ch01/ch01_01/preinstall
 
 # Recursive "clean" directory target.
-ch10/ch10_01/clean:
-.PHONY : ch10/ch10_01/clean
+ch01/ch01_01/clean: ch01/ch01_01/CMakeFiles/ch01_01.dir/clean
+.PHONY : ch01/ch01_01/clean
 
 #=============================================================================
-# Directory level rules for directory ch10/ch10_02
-
-# Recursive "all" directory target.
-ch10/ch10_02/all:
-.PHONY : ch10/ch10_02/all
-
-# Recursive "codegen" directory target.
-ch10/ch10_02/codegen:
-.PHONY : ch10/ch10_02/codegen
-
-# Recursive "preinstall" directory target.
-ch10/ch10_02/preinstall:
-.PHONY : ch10/ch10_02/preinstall
-
-# Recursive "clean" directory target.
-ch10/ch10_02/clean:
-.PHONY : ch10/ch10_02/clean
-
-#=============================================================================
-# Directory level rules for directory ch10/ch10_03
-
-# Recursive "all" directory target.
-ch10/ch10_03/all:
-.PHONY : ch10/ch10_03/all
-
-# Recursive "codegen" directory target.
-ch10/ch10_03/codegen:
-.PHONY : ch10/ch10_03/codegen
-
-# Recursive "preinstall" directory target.
-ch10/ch10_03/preinstall:
-.PHONY : ch10/ch10_03/preinstall
-
-# Recursive "clean" directory target.
-ch10/ch10_03/clean:
-.PHONY : ch10/ch10_03/clean
-
-#=============================================================================
-# Directory level rules for directory ch10/ch10_04
-
-# Recursive "all" directory target.
-ch10/ch10_04/all: ch10/ch10_04/Purevirtual/all
-.PHONY : ch10/ch10_04/all
-
-# Recursive "codegen" directory target.
-ch10/ch10_04/codegen: ch10/ch10_04/Purevirtual/codegen
-.PHONY : ch10/ch10_04/codegen
-
-# Recursive "preinstall" directory target.
-ch10/ch10_04/preinstall: ch10/ch10_04/Purevirtual/preinstall
-.PHONY : ch10/ch10_04/preinstall
-
-# Recursive "clean" directory target.
-ch10/ch10_04/clean: ch10/ch10_04/Purevirtual/clean
-.PHONY : ch10/ch10_04/clean
-
-#=============================================================================
-# Directory level rules for directory ch10/ch10_04/Purevirtual
-
-# Recursive "all" directory target.
-ch10/ch10_04/Purevirtual/all: ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/all
-.PHONY : ch10/ch10_04/Purevirtual/all
-
-# Recursive "codegen" directory target.
-ch10/ch10_04/Purevirtual/codegen: ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/codegen
-.PHONY : ch10/ch10_04/Purevirtual/codegen
-
-# Recursive "preinstall" directory target.
-ch10/ch10_04/Purevirtual/preinstall:
-.PHONY : ch10/ch10_04/Purevirtual/preinstall
-
-# Recursive "clean" directory target.
-ch10/ch10_04/Purevirtual/clean: ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/clean
-.PHONY : ch10/ch10_04/Purevirtual/clean
-
-#=============================================================================
-# Directory level rules for directory ch11
-
-# Recursive "all" directory target.
-ch11/all: ch11/CMakeFiles/ch11.dir/all
-.PHONY : ch11/all
-
-# Recursive "codegen" directory target.
-ch11/codegen: ch11/CMakeFiles/ch11.dir/codegen
-.PHONY : ch11/codegen
-
-# Recursive "preinstall" directory target.
-ch11/preinstall:
-.PHONY : ch11/preinstall
-
-# Recursive "clean" directory target.
-ch11/clean: ch11/CMakeFiles/ch11.dir/clean
-.PHONY : ch11/clean
-
-#=============================================================================
-# Target rules for target ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir
+# Target rules for target ch01/ch01_01/CMakeFiles/ch01_01.dir
 
 # All Build rule for target.
-ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/all:
-	$(MAKE) $(MAKESILENT) -f ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/build.make ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/depend
-	$(MAKE) $(MAKESILENT) -f ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/build.make ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lin/Desktop/CMake/build/CMakeFiles --progress-num=1,2,3 "Built target Purevirtual"
-.PHONY : ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/all
+ch01/ch01_01/CMakeFiles/ch01_01.dir/all:
+	$(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/depend
+	$(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lin/Desktop/CMake/build/CMakeFiles --progress-num=1,2 "Built target ch01_01"
+.PHONY : ch01/ch01_01/CMakeFiles/ch01_01.dir/all
 
 # Build rule for subdir invocation for target.
-ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lin/Desktop/CMake/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lin/Desktop/CMake/build/CMakeFiles 0
-.PHONY : ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/rule
-
-# Convenience name for target.
-Purevirtual: ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/rule
-.PHONY : Purevirtual
-
-# codegen rule for target.
-ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/build.make ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lin/Desktop/CMake/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target Purevirtual"
-.PHONY : ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/codegen
-
-# clean rule for target.
-ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/clean:
-	$(MAKE) $(MAKESILENT) -f ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/build.make ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/clean
-.PHONY : ch10/ch10_04/Purevirtual/CMakeFiles/Purevirtual.dir/clean
-
-#=============================================================================
-# Target rules for target ch11/CMakeFiles/ch11.dir
-
-# All Build rule for target.
-ch11/CMakeFiles/ch11.dir/all:
-	$(MAKE) $(MAKESILENT) -f ch11/CMakeFiles/ch11.dir/build.make ch11/CMakeFiles/ch11.dir/depend
-	$(MAKE) $(MAKESILENT) -f ch11/CMakeFiles/ch11.dir/build.make ch11/CMakeFiles/ch11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lin/Desktop/CMake/build/CMakeFiles --progress-num=4,5 "Built target ch11"
-.PHONY : ch11/CMakeFiles/ch11.dir/all
-
-# Build rule for subdir invocation for target.
-ch11/CMakeFiles/ch11.dir/rule: cmake_check_build_system
+ch01/ch01_01/CMakeFiles/ch01_01.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lin/Desktop/CMake/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch11/CMakeFiles/ch11.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch01/ch01_01/CMakeFiles/ch01_01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lin/Desktop/CMake/build/CMakeFiles 0
-.PHONY : ch11/CMakeFiles/ch11.dir/rule
+.PHONY : ch01/ch01_01/CMakeFiles/ch01_01.dir/rule
 
 # Convenience name for target.
-ch11: ch11/CMakeFiles/ch11.dir/rule
-.PHONY : ch11
+ch01_01: ch01/ch01_01/CMakeFiles/ch01_01.dir/rule
+.PHONY : ch01_01
 
 # codegen rule for target.
-ch11/CMakeFiles/ch11.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f ch11/CMakeFiles/ch11.dir/build.make ch11/CMakeFiles/ch11.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lin/Desktop/CMake/build/CMakeFiles --progress-num=4,5 "Finished codegen for target ch11"
-.PHONY : ch11/CMakeFiles/ch11.dir/codegen
+ch01/ch01_01/CMakeFiles/ch01_01.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/lin/Desktop/CMake/build/CMakeFiles --progress-num=1,2 "Finished codegen for target ch01_01"
+.PHONY : ch01/ch01_01/CMakeFiles/ch01_01.dir/codegen
 
 # clean rule for target.
-ch11/CMakeFiles/ch11.dir/clean:
-	$(MAKE) $(MAKESILENT) -f ch11/CMakeFiles/ch11.dir/build.make ch11/CMakeFiles/ch11.dir/clean
-.PHONY : ch11/CMakeFiles/ch11.dir/clean
+ch01/ch01_01/CMakeFiles/ch01_01.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ch01/ch01_01/CMakeFiles/ch01_01.dir/build.make ch01/ch01_01/CMakeFiles/ch01_01.dir/clean
+.PHONY : ch01/ch01_01/CMakeFiles/ch01_01.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
