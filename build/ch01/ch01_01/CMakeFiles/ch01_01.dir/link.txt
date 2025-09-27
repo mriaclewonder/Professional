@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ch01_01.dir/link.d CMakeFiles/ch01_01.dir/structtest.cpp.o -o /home/lin/Desktop/CMake/bin/ch01_01

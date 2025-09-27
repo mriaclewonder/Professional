@@ -1,7 +1,0 @@
-/home/lin/Desktop/CMake/build/CMakeFiles/edit_cache.dir
-/home/lin/Desktop/CMake/build/CMakeFiles/rebuild_cache.dir
-/home/lin/Desktop/CMake/build/ch01/CMakeFiles/edit_cache.dir
-/home/lin/Desktop/CMake/build/ch01/CMakeFiles/rebuild_cache.dir
-/home/lin/Desktop/CMake/build/ch01/ch01_01/CMakeFiles/ch01_01.dir
-/home/lin/Desktop/CMake/build/ch01/ch01_01/CMakeFiles/edit_cache.dir
-/home/lin/Desktop/CMake/build/ch01/ch01_01/CMakeFiles/rebuild_cache.dir

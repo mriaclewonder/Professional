@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/lin/Desktop/CMake/build/cmake_install.cmake",
-		"/home/lin/Desktop/CMake/build/ch01/cmake_install.cmake",
-		"/home/lin/Desktop/CMake/build/ch01/ch01_01/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

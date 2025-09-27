@@ -15,4 +15,5 @@ message(STATUS "CMAKE_CXX_STANDARD = ${CMAKE_CXX_STANDARD}")
 message(STATUS "CMAKE_CXX_EXTENSIONS = ${CMAKE_CXX_EXTENSIONS}")
 
 add_subdirectory(ch01)
+add_subdirectory(ch02)
 
