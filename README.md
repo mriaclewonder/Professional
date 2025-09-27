@@ -2,7 +2,8 @@
 
 ## 内容
 
-本仓库主要学习 Professional C++ 第六版
+本仓库主要学习 Professional C++ 第六版 [官方github地址](https://github.com/Professional-CPP/edition-6)
+
 
 ## 目的
 
