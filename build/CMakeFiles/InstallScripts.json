@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lin/CMake/build/cmake_install.cmake",
+		"/home/lin/CMake/build/ch08/cmake_install.cmake",
+		"/home/lin/CMake/build/ch08/ch08_01/cmake_install.cmake",
+		"/home/lin/CMake/build/ch08/ch08_02/cmake_install.cmake",
+		"/home/lin/CMake/build/ch08/ch08_03/cmake_install.cmake",
+		"/home/lin/CMake/build/ch08/ch08_04/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,16 @@
+/home/lin/CMake/build/CMakeFiles/edit_cache.dir
+/home/lin/CMake/build/CMakeFiles/rebuild_cache.dir
+/home/lin/CMake/build/ch08/CMakeFiles/edit_cache.dir
+/home/lin/CMake/build/ch08/CMakeFiles/rebuild_cache.dir
+/home/lin/CMake/build/ch08/ch08_01/CMakeFiles/ch08_01.dir
+/home/lin/CMake/build/ch08/ch08_01/CMakeFiles/edit_cache.dir
+/home/lin/CMake/build/ch08/ch08_01/CMakeFiles/rebuild_cache.dir
+/home/lin/CMake/build/ch08/ch08_02/CMakeFiles/ch08_02.dir
+/home/lin/CMake/build/ch08/ch08_02/CMakeFiles/edit_cache.dir
+/home/lin/CMake/build/ch08/ch08_02/CMakeFiles/rebuild_cache.dir
+/home/lin/CMake/build/ch08/ch08_03/CMakeFiles/ch08_03.dir
+/home/lin/CMake/build/ch08/ch08_03/CMakeFiles/edit_cache.dir
+/home/lin/CMake/build/ch08/ch08_03/CMakeFiles/rebuild_cache.dir
+/home/lin/CMake/build/ch08/ch08_04/CMakeFiles/ch08_04.dir
+/home/lin/CMake/build/ch08/ch08_04/CMakeFiles/edit_cache.dir
+/home/lin/CMake/build/ch08/ch08_04/CMakeFiles/rebuild_cache.dir

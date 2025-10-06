@@ -1,0 +1,222 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ch08",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-ch08-cd10ee7bdafba6189009.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ch08"
+				},
+				{
+					"build" : "ch08/ch08_01",
+					"jsonFile" : "directory-ch08.ch08_01-f4d5e1a5f6ee5a5c6252.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "ch08/ch08_01",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ch08/ch08_02",
+					"jsonFile" : "directory-ch08.ch08_02-2f51acc3ded4c45fa8bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "ch08/ch08_02",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ch08/ch08_03",
+					"jsonFile" : "directory-ch08.ch08_03-226e6c4dd7550ba78626.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "ch08/ch08_03",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ch08/ch08_04",
+					"jsonFile" : "directory-ch08.ch08_04-a17f57a842c75b08d302.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "ch08/ch08_04",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CMake"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "ch08",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ch08_01",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ch08_02",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "ch08_03",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ch08_04",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ch08_01::@b2d3b3266c7fbdf2db82",
+					"jsonFile" : "target-ch08_01-36af98212921f9b081cf.json",
+					"name" : "ch08_01",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ch08_02::@013f2790fe8a2b5bcfff",
+					"jsonFile" : "target-ch08_02-7c8c7a2252b958ac60bb.json",
+					"name" : "ch08_02",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ch08_03::@fd1c57d05e8fc6f8da65",
+					"jsonFile" : "target-ch08_03-5d20ffe2a51705d0cd39.json",
+					"name" : "ch08_03",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ch08_04::@0f39fc41a380caf9813b",
+					"jsonFile" : "target-ch08_04-9e6e2d78bd2e22a34613.json",
+					"name" : "ch08_04",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lin/CMake/build",
+		"source" : "/home/lin/CMake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
