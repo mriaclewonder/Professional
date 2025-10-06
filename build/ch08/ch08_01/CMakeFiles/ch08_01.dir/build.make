@@ -76,29 +76,29 @@ ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.o: ch08/ch08_01/CMakeFiles/ch08_01.
 ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.o: /home/lin/CMake/ch08/ch08_01/main.cpp
 ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.o: ch08/ch08_01/CMakeFiles/ch08_01.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lin/CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.o"
-	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.o -MF CMakeFiles/ch08_01.dir/main.cpp.o.d -o CMakeFiles/ch08_01.dir/main.cpp.o -c /home/lin/CMake/ch08/ch08_01/main.cpp
+	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.o -MF CMakeFiles/ch08_01.dir/main.cpp.o.d -o CMakeFiles/ch08_01.dir/main.cpp.o -c /home/lin/CMake/ch08/ch08_01/main.cpp
 
 ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ch08_01.dir/main.cpp.i"
-	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lin/CMake/ch08/ch08_01/main.cpp > CMakeFiles/ch08_01.dir/main.cpp.i
+	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lin/CMake/ch08/ch08_01/main.cpp > CMakeFiles/ch08_01.dir/main.cpp.i
 
 ch08/ch08_01/CMakeFiles/ch08_01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ch08_01.dir/main.cpp.s"
-	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lin/CMake/ch08/ch08_01/main.cpp -o CMakeFiles/ch08_01.dir/main.cpp.s
+	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lin/CMake/ch08/ch08_01/main.cpp -o CMakeFiles/ch08_01.dir/main.cpp.s
 
 ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.o: ch08/ch08_01/CMakeFiles/ch08_01.dir/flags.make
 ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.o: /home/lin/CMake/ch08/ch08_01/Person.cpp
 ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.o: ch08/ch08_01/CMakeFiles/ch08_01.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lin/CMake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.o"
-	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.o -MF CMakeFiles/ch08_01.dir/Person.cpp.o.d -o CMakeFiles/ch08_01.dir/Person.cpp.o -c /home/lin/CMake/ch08/ch08_01/Person.cpp
+	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.o -MF CMakeFiles/ch08_01.dir/Person.cpp.o.d -o CMakeFiles/ch08_01.dir/Person.cpp.o -c /home/lin/CMake/ch08/ch08_01/Person.cpp
 
 ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ch08_01.dir/Person.cpp.i"
-	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lin/CMake/ch08/ch08_01/Person.cpp > CMakeFiles/ch08_01.dir/Person.cpp.i
+	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lin/CMake/ch08/ch08_01/Person.cpp > CMakeFiles/ch08_01.dir/Person.cpp.i
 
 ch08/ch08_01/CMakeFiles/ch08_01.dir/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ch08_01.dir/Person.cpp.s"
-	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lin/CMake/ch08/ch08_01/Person.cpp -o CMakeFiles/ch08_01.dir/Person.cpp.s
+	cd /home/lin/CMake/build/ch08/ch08_01 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lin/CMake/ch08/ch08_01/Person.cpp -o CMakeFiles/ch08_01.dir/Person.cpp.s
 
 # Object files for target ch08_01
 ch08_01_OBJECTS = \

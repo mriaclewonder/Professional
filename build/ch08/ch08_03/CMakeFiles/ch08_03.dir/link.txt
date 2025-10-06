@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/ch08_03.dir/link.d CMakeFiles/ch08_03.dir/main.cpp.o CMakeFiles/ch08_03.dir/Person.cpp.o -o /home/lin/CMake/bin/ch08_03
+/usr/bin/g++ -Wl,--dependency-file=CMakeFiles/ch08_03.dir/link.d CMakeFiles/ch08_03.dir/main.cpp.o CMakeFiles/ch08_03.dir/Person.cpp.o -o /home/lin/CMake/bin/ch08_03
