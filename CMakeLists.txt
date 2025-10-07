@@ -17,5 +17,5 @@ message(STATUS "CMAKE_CXX_EXTENSIONS = ${CMAKE_CXX_EXTENSIONS}")
 # add_subdirectory(ch01)
 # add_subdirectory(ch02)
 # add_subdirectory(ch07)
-add_subdirectory(ch08)
-
+# add_subdirectory(ch08)
+add_subdirectory(ch09)
