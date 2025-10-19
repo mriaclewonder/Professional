@@ -4,6 +4,8 @@
 
 本仓库主要是 [Professional C++ 第六版](https://github.com/Professional-CPP/edition-6) 代码习题 
 
+## 笔记
+[博客链接](https://www.cnblogs.com/jiexiekaruo/p/19061771)
 
 ## 目的
 
